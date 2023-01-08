@@ -1,0 +1,24 @@
+#about_section2{
+    display: flex;
+    align-items: center;
+}
+
+.about_section_content{
+    max-width: 59.375vw;
+    margin: auto;
+    margin-top: 10vw;
+    align-items: center;
+
+    display: flex;
+    flex-direction: row;
+    gap: 5vw;
+}
+
+.our_team_img{
+    width: 25vw;
+}
+
+.about_section_text{
+    display: flex;
+    flex-direction: column;
+}

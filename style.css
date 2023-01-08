@@ -156,7 +156,7 @@ li a:hover{
     grid-column: span 5;
     grid-row: 2;
     height: 100%;
-    width: 72%;
+    width: 90%;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: 1fr;
