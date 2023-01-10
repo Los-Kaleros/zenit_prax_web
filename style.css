@@ -572,14 +572,12 @@ footer p{
 
 #login_section{
     height: 25vw;
-    margin-top: 4vw;
     display: flex;
     align-items: center;
 }
 
 .login_content{
     width: 59.375vw;
-    height: 30%;
     margin: auto;
 }
 
