@@ -611,3 +611,21 @@ footer p{
     font-size: 1vw;
     cursor: pointer;
 }
+
+.secret_img{
+    width: 50vw;
+    height: 50vw;
+    margin-left: 20vw;
+    z-index: 99;
+    position: fixed;
+    opacity: 0;
+}
+
+.ricardo{
+    width: 40vw;
+    height: auto;
+    left: 30%;
+    position: fixed;
+    opacity: 0;
+    z-index: 99;
+}
