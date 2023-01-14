@@ -612,20 +612,38 @@ footer p{
     cursor: pointer;
 }
 
-.secret_img{
+#image{
     width: 50vw;
     height: 50vw;
     margin-left: 20vw;
     z-index: 99;
-    position: fixed;
     opacity: 0;
+    display: none;
 }
 
-.ricardo{
-    width: 40vw;
+#ricardos{
+    width: 0.1vw;
     height: auto;
-    left: 30%;
     position: fixed;
+    left: 25%;
     opacity: 0;
-    z-index: 99;
+    z-index: 0;
+}
+
+@keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to { 
+      transform: rotate(360deg);
+    }
+  }
+  
+img.secret_img {
+    animation: rotate 1.0s infinite linear;
+}
+
+#ricardo{
+    border: none;
+    background-color: white;
 }
